@@ -30,4 +30,4 @@
 
 ## Prompts de IA
 *quiero hacer proyecto de realidad virtual en godot, como lo puedo hacer para cardboard vr
-*como utilizo los gitignore
+**como utilizo los gitignore
