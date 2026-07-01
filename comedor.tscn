@@ -1,8 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://c5cua07a78ocr"]
+[gd_scene load_steps=3 format=3 uid="uid://c5cua07a78ocr"]
 
 [ext_resource type="PackedScene" uid="uid://xunffmdd8w7q" path="res://Comedor2.blend" id="1_8kmq1"]
+[ext_resource type="PackedScene" uid="uid://bi22owmwej33s" path="res://camara.tscn" id="2_rurju"]
 
 [node name="Comedor" type="Node3D"]
 
 [node name="Comedor2" parent="." instance=ExtResource("1_8kmq1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.29954433, 0, -2.1599216)
+
+[node name="CharacterBody3D" parent="." instance=ExtResource("2_rurju")]
+transform = Transform3D(1, 0, 0, 0, 0.96384937, 0.26644784, 0, -0.26644784, 0.96384937, 0, 3.7058225, 8.559648)
