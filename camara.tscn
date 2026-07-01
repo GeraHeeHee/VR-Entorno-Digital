@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bi22owmwej33s"]
+
+[ext_resource type="Script" uid="uid://s5ugrpk4rfw4" path="res://addons/cardboard_vr/scripts/cardboard_vr_camera.gd" id="1_o68wd"]
+
+[node name="CharacterBody3D" type="CharacterBody3D"]
+
+[node name="CardboardVRCamera3D" type="Camera3D" parent="."]
+script = ExtResource("1_o68wd")
+Input_Cancel = "ui_cancel"
+metadata/_custom_type_script = "uid://s5ugrpk4rfw4"
