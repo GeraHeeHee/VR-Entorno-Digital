@@ -6,5 +6,4 @@
 
 [node name="CardboardVRCamera3D" type="Camera3D" parent="."]
 script = ExtResource("1_o68wd")
-Input_Cancel = "ui_cancel"
 metadata/_custom_type_script = "uid://s5ugrpk4rfw4"

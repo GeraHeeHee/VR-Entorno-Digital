@@ -9,4 +9,4 @@
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.29954433, 0, -2.1599216)
 
 [node name="CharacterBody3D" parent="." instance=ExtResource("2_rurju")]
-transform = Transform3D(1, 0, 0, 0, 0.96384937, 0.26644784, 0, -0.26644784, 0.96384937, 0, 3.7058225, 8.559648)
+transform = Transform3D(1, 0, 0, 0, 0.96384937, 0.26644784, 0, -0.26644784, 0.96384937, 0, 5.221928, 8.559648)
